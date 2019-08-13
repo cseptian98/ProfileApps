@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navProfil"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/profil" />
+
+    <item
+        android:id="@+id/navKontak"
+        android:icon="@drawable/ic_import_contacts_black_24dp"
+        android:title="@string/kontak" />
+
+    <item
+        android:id="@+id/navTeman"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="@string/teman" />
+
+    <item
+        android:id="@+id/navTambah"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="Tambah"/>
+
+    <item
+        android:id="@+id/navTentang"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/about" />
+
+</menu>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailTeman">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tvNamaTeman"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/tvNIMTeman"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNamaTeman"
+            android:text="NIM"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/tvKelasTeman"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNIMTeman"
+            android:text="Kelas"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvKelasTeman"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/layPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:background="@drawable/item_background">
+
+                <TextView
+                    android:id="@+id/tvTelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Nomor Telepon" />
+
+                <EditText
+                    android:id="@+id/tvTelpTeman"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvTelp"
+                    android:text="Telp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@android:color/white"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="onClick"
+                android:background="@drawable/item_background">
+
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Email" />
+
+                <EditText
+                    android:id="@+id/tvEmailTeman"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvEmail"
+                    android:layout_marginBottom="10dp"
+                    android:text="Email"
+                    android:textColor="@android:color/white" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layIg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="onClick"
+                android:background="@drawable/item_background">
+
+                <TextView
+                    android:id="@+id/tvIg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Instagram" />
+
+                <EditText
+                    android:id="@+id/tvIgTeman"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvIg"
+                    android:layout_marginBottom="10dp"
+                    android:text="Sosmed"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:background="@drawable/item_background"
+                    android:textColor="@color/colorAccent"
+                    android:text="Update" />
+
+                <Button
+                    android:id="@+id/btnDelete"
+                    android:layout_toEndOf="@+id/btnUpdate"
+                    android:background="@drawable/item_background"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delete" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

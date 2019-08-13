@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Profile Apps</string>
+    <string name="profil">Profil</string>
+    <string name="kontak">Kontak</string>
+    <string name="teman">Teman</string>
+    <string name="nama">CHANDRA SEPTIAN</string>
+    <string name="nim">10116333</string>
+    <string name="kelas">IF-8</string>
+    <string name="desc">Saya seorang Mahasiswa di salah satu kampus di kota Bandung, yaitu Universitas Komputer Indonesia dengan mengambil jurusan Teknik Informatika. Saya adalah orang yang terbiasa bersosialisasi karena sering berkumpul di berbagai organisasi, bertemu dengan berkerja sama dengan orang baru tidak menjadi masalah bagi saya.</string>
+    <string name="noTelp">081223882824</string>
+    <string name="akunIG">cseptian_</string>
+    <string name="email">cseptian48@gmail.com</string>
+    <string name="akunTwitter">"@CSeptian98"</string>
+    <string name="about">Tentang</string>
+    <string name="tambah_teman">Tambah Teman</string>
+    <string name="isi_nama">Isi Nama</string>
+    <string name="isi_nim">Isi NIM</string>
+    <string name="isi_kelas">Isi Kelas</string>
+    <string name="isi_no_telp">Isi No.Telp</string>
+    <string name="isi_email">Isi Email</string>
+    <string name="simpan">Simpan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_out">Sign Out</string>
+</resources>
